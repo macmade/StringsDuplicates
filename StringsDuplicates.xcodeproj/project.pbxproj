@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056606E116CB780400C455CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056606E016CB780400C455CF /* Foundation.framework */; };
+		056606E416CB780400C455CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056606E316CB780400C455CF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		056606DB16CB780400C455CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		056606DD16CB780400C455CF /* StringsDuplicates */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringsDuplicates; sourceTree = BUILT_PRODUCTS_DIR; };
+		056606E016CB780400C455CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		056606E316CB780400C455CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056606E616CB780400C455CF /* StringsDuplicates-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringsDuplicates-Prefix.pch"; sourceTree = "<group>"; };
+		056606EE16CB783400C455CF /* warnings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = warnings.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056606DA16CB780400C455CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056606E116CB780400C455CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056606D416CB780400C455CF = {
+			isa = PBXGroup;
+			children = (
+				056606E216CB780400C455CF /* StringsDuplicates */,
+				056606DF16CB780400C455CF /* Frameworks */,
+				056606DE16CB780400C455CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056606DE16CB780400C455CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056606DD16CB780400C455CF /* StringsDuplicates */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056606DF16CB780400C455CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				056606E016CB780400C455CF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		056606E216CB780400C455CF /* StringsDuplicates */ = {
+			isa = PBXGroup;
+			children = (
+				056606E316CB780400C455CF /* main.m */,
+				056606E516CB780400C455CF /* Supporting Files */,
+			);
+			path = StringsDuplicates;
+			sourceTree = "<group>";
+		};
+		056606E516CB780400C455CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056606E616CB780400C455CF /* StringsDuplicates-Prefix.pch */,
+				056606EE16CB783400C455CF /* warnings.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056606DC16CB780400C455CF /* StringsDuplicates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056606EB16CB780400C455CF /* Build configuration list for PBXNativeTarget "StringsDuplicates" */;
+			buildPhases = (
+				056606D916CB780400C455CF /* Sources */,
+				056606DA16CB780400C455CF /* Frameworks */,
+				056606DB16CB780400C455CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringsDuplicates;
+			productName = StringsDuplicates;
+			productReference = 056606DD16CB780400C455CF /* StringsDuplicates */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056606D516CB780400C455CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = eosgarden;
+			};
+			buildConfigurationList = 056606D816CB780400C455CF /* Build configuration list for PBXProject "StringsDuplicates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 056606D416CB780400C455CF;
+			productRefGroup = 056606DE16CB780400C455CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056606DC16CB780400C455CF /* StringsDuplicates */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056606D916CB780400C455CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056606E416CB780400C455CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		056606E916CB780400C455CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		056606EA16CB780400C455CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		056606EC16CB780400C455CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringsDuplicates/StringsDuplicates-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		056606ED16CB780400C455CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringsDuplicates/StringsDuplicates-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056606D816CB780400C455CF /* Build configuration list for PBXProject "StringsDuplicates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056606E916CB780400C455CF /* Debug */,
+				056606EA16CB780400C455CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056606EB16CB780400C455CF /* Build configuration list for PBXNativeTarget "StringsDuplicates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056606EC16CB780400C455CF /* Debug */,
+				056606ED16CB780400C455CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056606D516CB780400C455CF /* Project object */;
+}
