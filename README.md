@@ -1,6 +1,8 @@
 StringsDuplicate
 ================
 
+[![Build Status](https://travis-ci.org/macmade/StringsDuplicate.svg?branch=master)](https://travis-ci.org/macmade/StringsDuplicate)
+
 About
 -----
 

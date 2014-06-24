@@ -89,7 +89,6 @@ extern "C" {
 #pragma clang diagnostic fatal "-Wctor-dtor-privacy"
 #pragma clang diagnostic fatal "-Wcustom-atomic-properties"
 #pragma clang diagnostic fatal "-Wdeclaration-after-statement"
-#pragma clang diagnostic fatal "-Wdefault-arg-special-member"
 #pragma clang diagnostic fatal "-Wdelegating-ctor-cycles"
 #pragma clang diagnostic fatal "-Wdelete-non-virtual-dtor"
 #pragma clang diagnostic fatal "-Wdeprecated-declarations"
@@ -155,7 +154,6 @@ extern "C" {
 #pragma clang diagnostic fatal "-Wnewline-eof"
 #pragma clang diagnostic fatal "-Wnon-gcc"
 #pragma clang diagnostic fatal "-Wnon-virtual-dtor"
-/*#pragma clang diagnostic fatal "-Wnonfragile-abi2"*/
 #pragma clang diagnostic fatal "-Wnonnull"
 #pragma clang diagnostic fatal "-Wnonportable-cfstrings"
 #pragma clang diagnostic fatal "-WNSObject-attribute"
@@ -180,7 +178,6 @@ extern "C" {
 #pragma clang diagnostic fatal "-Wpointer-arith"
 #pragma clang diagnostic fatal "-Wpointer-to-int-cast"
 #pragma clang diagnostic fatal "-Wprotocol"
-#pragma clang diagnostic fatal "-Wreadonly-setter-attrs"
 #pragma clang diagnostic fatal "-Wredundant-decls"
 #pragma clang diagnostic fatal "-Wreorder"
 #pragma clang diagnostic fatal "-Wreturn-type"
