@@ -147,7 +147,6 @@ extern "C" {
 #pragma clang diagnostic fatal "-Wmissing-include-dirs"
 #pragma clang diagnostic fatal "-Wmissing-method-return-type"
 #pragma clang diagnostic fatal "-Wmissing-noreturn"
-#pragma clang diagnostic fatal "-Wmodule-build"
 #pragma clang diagnostic fatal "-Wmost"
 #pragma clang diagnostic fatal "-Wmultichar"
 #pragma clang diagnostic fatal "-Wnested-externs"
